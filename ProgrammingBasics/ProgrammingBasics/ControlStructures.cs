@@ -222,7 +222,7 @@ for (int i = 1; i <= 10; i++)
 
 // --------------------------------------------------
 // Metódusok
-
+/*
 double f1 = 12.5f;      //double is egy floating point szám
 double f2 = 3;
 
@@ -234,3 +234,195 @@ Console.WriteLine(f1 + " ^ " + f2 + " = " + power);
 double f3 = Math.Abs(f1);
 
 double pi = Math.PI;
+*/
+
+
+/*
+Console.WriteLine("Num. 1:");
+string line1 = Console.ReadLine();
+float a = float.Parse(line1);
+
+Console.WriteLine("Num. 2:");
+string line2 = Console.ReadLine();
+float b = float.Parse(line2);
+
+float sum = a + b;
+float difference = a - b;
+float product = a * b;
+float quotient = a / b;
+
+Console.WriteLine("Sum:" + sum);
+Console.WriteLine("difference:" + difference);
+Console.WriteLine("product:" + product);
+Console.WriteLine("quotient:" + quotient);
+*/
+/*
+
+Console.WriteLine("Num. 1/5:");
+string line1 = Console.ReadLine();
+float a = float.Parse(line1);
+Console.WriteLine("Num. 2/5:");
+string line2 = Console.ReadLine();
+float b = float.Parse(line2);
+Console.WriteLine("Num. 3/5:");
+string line3 = Console.ReadLine();
+float c = float.Parse(line3);
+Console.WriteLine("Num. 4/5:");
+string line4 = Console.ReadLine();
+float d = float.Parse(line4);
+Console.WriteLine("Num. 5/5:");
+string line5 = Console.ReadLine();
+float e = float.Parse(line5);
+
+float sum = a + b + c + d + e;
+float div = sum / 5;
+
+Console.WriteLine("Average:" + div);
+*/
+/*
+
+Console.WriteLine("Kör sugara:");
+string line = Console.ReadLine();
+float rad = float.Parse(line);
+
+Console.WriteLine("Mértékegység:");
+string line2 = Console.ReadLine();
+
+double radius = rad * 2 * Math.PI;
+double area = Math.Pow(rad, 2) * Math.PI;
+//double area = rad * rad * Math.PI;
+
+Console.WriteLine("Kör kerülete: " + radius + line2);
+Console.WriteLine("Kör területe: " + area + line2);
+
+*/
+/*
+
+Console.WriteLine("Num. 1/2:");
+string line = Console.ReadLine();
+float a = float.Parse(line);
+
+Console.WriteLine("Num. 2/2:");
+string line2 = Console.ReadLine();
+float b = float.Parse(line2);
+
+if(a < b)
+{
+    Console.WriteLine("Kisebb szám: " + a);
+}
+else
+{
+    Console.WriteLine("Kisebb szám: " + b);
+}
+if (a > b)
+{
+    Console.WriteLine("Nagyobb szám: " + a);
+}
+else
+{
+    Console.WriteLine("Nagyobb szám: " + b);
+}
+
+*/
+/*
+
+// Beolvasás
+Console.WriteLine("Insert Number 1!");
+string line1 = Console.ReadLine();
+int number1 = int.Parse(line1);
+
+Console.WriteLine("Insert Number 2!");
+string line2 = Console.ReadLine();
+int number2 = int.Parse(line2);
+
+// Számítások elvégzése
+int min;
+int max;
+
+if (number1 > number2)
+{
+    min = number2;
+    max = number1;
+}
+else
+{
+    min = number1;
+    max = number2;
+}
+
+// Kiíratás
+Console.WriteLine("Minimum: " + min);
+Console.WriteLine("Maximum: " + max);
+
+*/
+
+/*
+
+Console.WriteLine("Base number: ");
+string line1 = Console.ReadLine();
+int baseNumber = int.Parse(line1);
+
+Console.WriteLine("Exponent: ");
+string line2 = Console.ReadLine();
+int exp = int.Parse(line2);
+
+double result = Math.Pow(baseNumber, exp);
+
+Console.WriteLine("Result: " + result);
+
+*/
+/*
+ 
+Console.WriteLine("Whole Num.: ");
+string line = Console.ReadLine();
+int num = int.Parse(line);
+
+
+for (int i = 1;i <= num; i++)
+{
+
+    bool fizz = i % 3 == 0;
+    bool buzz = i % 5 == 0;
+
+    if (fizz && buzz)
+    {
+        Console.WriteLine("FizzBuzz");
+    }
+    else if (fizz)
+    {
+        Console.WriteLine("Fizz");
+    }
+    else if (buzz)
+    {
+        Console.WriteLine("Buzz");
+    }
+    else
+    {
+        Console.WriteLine(i);
+    }
+}
+
+*/
+
+
+Console.WriteLine("Pos X: ");
+string line1 = Console.ReadLine();
+float dx = float.Parse(line1);
+
+Console.WriteLine("Pos Y: ");
+string line2 = Console.ReadLine();
+float dy = float.Parse(line2);
+
+Console.WriteLine("Speed (m/s): ");
+string line3 = Console.ReadLine();
+float enemySpeed = float.Parse(line3);
+
+float enemyDistance = (dx * dx) + (dy * dy);
+float distance = (float) Math.Sqrt(enemyDistance);
+
+float timeToReach = distance / enemySpeed;
+
+Console.WriteLine("Time: " + timeToReach + "s");
+
+
+
