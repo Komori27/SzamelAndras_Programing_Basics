@@ -435,4 +435,3 @@ var v2 = 4.76;      //v2 - double
 var v3 = "5.48";    //v3 - string
 var v4 = true;      //v4 = bool
 */
-
