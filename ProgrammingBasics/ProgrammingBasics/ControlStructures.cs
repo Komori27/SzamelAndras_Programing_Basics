@@ -236,7 +236,6 @@ double f3 = Math.Abs(f1);
 double pi = Math.PI;
 */
 
-
 /*
 Console.WriteLine("Num. 1:");
 string line1 = Console.ReadLine();
@@ -256,6 +255,7 @@ Console.WriteLine("difference:" + difference);
 Console.WriteLine("product:" + product);
 Console.WriteLine("quotient:" + quotient);
 */
+
 /*
 
 Console.WriteLine("Num. 1/5:");
@@ -279,6 +279,7 @@ float div = sum / 5;
 
 Console.WriteLine("Average:" + div);
 */
+
 /*
 
 Console.WriteLine("Kör sugara:");
@@ -296,6 +297,7 @@ Console.WriteLine("Kör kerülete: " + radius + line2);
 Console.WriteLine("Kör területe: " + area + line2);
 
 */
+
 /*
 
 Console.WriteLine("Num. 1/2:");
@@ -324,6 +326,7 @@ else
 }
 
 */
+
 /*
 
 // Beolvasás
@@ -371,6 +374,7 @@ double result = Math.Pow(baseNumber, exp);
 Console.WriteLine("Result: " + result);
 
 */
+
 /*
  
 Console.WriteLine("Whole Num.: ");
@@ -404,7 +408,7 @@ for (int i = 1;i <= num; i++)
 
 */
 
-
+/*
 Console.WriteLine("Pos X: ");
 string line1 = Console.ReadLine();
 float dx = float.Parse(line1);
@@ -423,6 +427,12 @@ float distance = (float) Math.Sqrt(enemyDistance);
 float timeToReach = distance / enemySpeed;
 
 Console.WriteLine("Time: " + timeToReach + "s");
+*/
 
-
+/*
+var v1 = 4;         //v1 - int
+var v2 = 4.76;      //v2 - double
+var v3 = "5.48";    //v3 - string
+var v4 = true;      //v4 = bool
+*/
 

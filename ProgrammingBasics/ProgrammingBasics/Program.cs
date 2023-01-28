@@ -124,3 +124,9 @@ bool b16 = !b1;             //negálás - ha T akkor F, ha F akkor T
 bool b17 = b1 ^ b2;         //xor - kizáró vagy / ha mindkettő ugyan az = F  (T+T=F, T+F=T, F+T=T, F+F=F)
 
 */
+/*
+var v1 = 4;         //v1 - int
+var v2 = 4.76;      //v2 - double
+var v3 = "5.48";    //v3 - string
+var v4 = true;      //v4 = bool
+*/
